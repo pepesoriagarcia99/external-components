@@ -1,0 +1,5 @@
+AVISO LEGAL ADICIONAL
+
+Este software es gratuito, de uso local (offline), y tiene como ùnico propùsito la generaciùn de presupuestos, estimaciones de rutas y planificaciùn de producciùn. **No realiza funciones de facturaciùn, contabilidad, emisiùn de tickets o justificantes de cobro**, ni estù diseùado para cumplir con la legislaciùn fiscal vigente en Espaùa (incluyendo la normativa sobre software de doble uso y el sistema Veri*Factu de la Agencia Tributaria).
+
+**El autor no se responsabiliza del uso indebido o fraudulento que terceros puedan hacer de este software**. Cada usuario es responsable de asegurarse de que su uso del software cumple con las obligaciones legales y fiscales que le correspondan.

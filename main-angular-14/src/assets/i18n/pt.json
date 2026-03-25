@@ -1,0 +1,2006 @@
+{
+  "header": {
+    "search": {
+      "mode": {
+        "global": "Buscar em todo o Converge",
+        "template": "Buscar na aba atual"
+      }
+    }
+  },
+  "common": {
+    "empty": "Não há itens",
+    "ok": "OK",
+    "great": "Ótimo!",
+    "hide": "Ocultar",
+    "confirm": "Confirmar",
+    "loading": "Carregando...",
+    "template": "Modelo",
+    "view": "Vista",
+    "error": "Ocorreu um erro na solicitação.",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "search": "Buscar..."
+  },
+  "attachments": {
+    "move": "Arraste (máx 200MB)",
+    "select": " ou selecione um arquivo",
+    "of": "de 200MB máx",
+    "error": "O arquivo não pôde ser carregado. Verifique o tamanho do arquivo."
+  },
+  "core": {
+    "landing": {
+      "verifying": "Estamos verificando suas credenciais. Por favor, aguarde um momento.",
+      "welcome": "Bem-vindo",
+      "redirecting": "Estamos levando você de volta ao ponto onde parou. Um momento.",
+      "unknown": "Não conseguimos determinar onde você parou neste navegador.",
+      "where": "Para onde você gostaria de navegar?"
+    },
+    "report": {
+      "loading": "Carregando relatório...",
+      "error": "Ocorreu um erro ao carregar o relatório.",
+      "goback": "Voltar atrás",
+      "print": "Imprimir relatório",
+      "update": "Atualizar",
+      "fullscreen": "Tela cheia"
+    },
+    "components": {
+      "loading": {
+        "redirecting": "Redirecionando para a página principal",
+        "go": "Ir para o início"
+      },
+      "dialog": {
+        "close-tooltip": "Fechar diálogo",
+        "default-accept": "Aceitar",
+        "default-apply": "Aplicar",
+        "default-cancel": "Cancelar"
+      },
+      "paginator": {
+        "items": "itens",
+        "selected": "selecionados"
+      },
+      "last-updated": {
+        "title": "Última atualização SAP: "
+      },
+      "logout": {
+        "message": "Sessão encerrada com sucesso. Até logo!",
+        "login": "Fazer login novamente"
+      },
+      "navbar": {
+        "user-menu": {
+          "home": "Início",
+          "reports": "Relatórios",
+          "config": "Configurações",
+          "versions": "Histórico de versões",
+          "improvements": "Ideias de melhoria",
+          "help": "Centro de ajuda",
+          "logout": "Sair",
+          "notify": "Notificar problema",
+          "admin": "Painel de administração",
+          "profile": "Menu do usuário",
+          "notifications": "Notificações",
+          "tour": "Tour virtual",
+          "languaje": "Idioma",
+          "contactus": "Fale conosco",
+          "maintenance": "Manutenção"
+        }
+      },
+      "editor-text": {
+        "error-image-size": "Falha ao carregar a imagem porque excede o tamanho máximo de 1 MB. Por favor, carregue uma imagem menor ou recorte-a.",
+        "error-image-load": "Erro ao carregar a imagem, por favor, tente novamente com uma imagem menor ou recorte."
+      }
+    }
+  },
+  "template": {
+    "loadingError": "Um erro ocorreu ao carregar o template. Por favor, tente novamente mais tarde.",
+    "components": {
+      "import": {
+        "title": "Importação",
+        "welcome": "Bem-vindo à janela de importação.",
+        "instructions": "Descarregue e preencha o modelo utilizando as instruções nele incluídas.",
+        "download": "Gerar modelo",
+        "downloading": "Baixando",
+        "filename": "Modelo_converge_TID{{id}}.xlsx",
+        "drag": "Arraste ou ",
+        "select": "selecione um arquivo",
+        "uploading": "Processando arquivo",
+        "uploading-description": "O arquivo está sendo processado. Abaixo está o progresso.",
+        "uploading-close": "Você pode fechar esta janela, atualizações de progresso serão notificadas.",
+        "reset": "Redefinir",
+        "dropzoneHint": "Número máximo de artigos a importar: {{max}}",
+        "progress": {
+          "status": {
+            "waiting": "Aguardando",
+            "queue": "Na fila",
+            "running": "Em execução",
+            "ok": "Concluído",
+            "error": "Erro"
+          },
+          "uploading": "Carregando arquivo",
+          "headers": "Processando cabeçalhos",
+          "body": "Processando dados",
+          "changes": "Gerando mudanças",
+          "saving": "Salvando mudanças"
+        },
+        "import": "Carregar dados",
+        "upload": "Enviar e validar arquivo",
+        "report": "Relatório de validação",
+        "inserts": "Inserções",
+        "updates": "Atualizações",
+        "confirmation": "Você deseja atualizar as informações de {{template}} com os dados carregados do arquivo {{fileName}}?",
+        "caution": "Esta ação NÃO é reversível.",
+        "importComplete": "Processo de importação concluído",
+        "close": "Fechar"
+      },
+      "export": {
+        "title": "Exportação em massa",
+        "alertTitle": "Alerta de uso de recursos",
+        "alertMessage": "Você está prestes a realizar uma exportação em massa de mais de {{count}} itens. Esta operação pode levar um tempo considerável e consumir muitos recursos. Tem certeza de que deseja continuar?",
+        "confirm": {
+          "message": "Você está prestes a realizar uma exportação em massa de:",
+          "continue": "Tem certeza de que deseja continuar?"
+        }
+      },
+      "table-overheader": {
+        "share-dialog": {
+          "title": "URL copiada",
+          "description": "A URL da visualização atual foi copiada para a área de transferência."
+        },
+        "create": "Novo elemento",
+        "showing": "na visualização",
+        "archive": "Arquivo",
+        "share": "Compartilhar",
+        "reports": "Relatórios",
+        "help": "Ajuda",
+        "import": "Importar",
+        "export": "Exportar",
+        "file": "Arquivo",
+        "reload": "Recarregar",
+        "filters": {
+          "empty": "sem filtros de visualização",
+          "view": "filtrada",
+          "overwrite": "com filtros de URL",
+          "column": "com filtro(s) de usuário {{fields}}"
+        },
+        "tooltip": {
+          "export": "Exportar dados atuais para Excel",
+          "import": "Importar dados de arquivo local",
+          "create": "Inserir novo registro de dados",
+          "remove-filters": "Remover filtros de usuário",
+          "reports": "Visualizar dados de BI",
+          "share": "Compartilhar seu modelo atual em um link",
+          "help": "Buscar informações de suporte",
+          "reload": "Recarregar dados atuais"
+        }
+      },
+      "editor-tab-panel": {
+        "hide": "Ocultar painel"
+      },
+      "main": {
+        "show-editor": "Mostrar editor inferior"
+      },
+      "tabs": {
+        "general": "Geral",
+        "solped": "Solicitação de Pedido",
+        "dates": "Datas",
+        "material": "Material",
+        "quantities": "Quantidades",
+        "tracking": "Rastreamento",
+        "urgencies": "Urgências",
+        "reception": "Recepção",
+        "quality": "Qualidade",
+        "stock": "Estoque",
+        "op": "OP",
+        "missings": "Faltantes",
+        "dummies": "Dummies",
+        "order": "Pedido"
+      },
+      "observations": {
+        "timestamp": "Data",
+        "userName": "Usuário",
+        "comment": "Comentário",
+        "add": "Adicionar observação",
+        "addHeader": "Nova observação",
+        "error": "Erro ao adicionar observação",
+        "ok": "OK",
+        "empty": "Não há observações para esta linha",
+        "modal": {
+          "title": "Adicionar observação",
+          "comment": "Observação",
+          "empty": "A observação não pode estar vazia"
+        },
+        "notification": {
+          "title": "Nova observação",
+          "error": "Falha ao criar a observação"
+        }
+      },
+      "editor": {
+        "textarea": {
+          "title": ""
+        },
+        "attachment": {
+          "attach": "Anexar arquivo",
+          "file": "Arquivo",
+          "empty": "Nenhum arquivo anexado.",
+          "changeName": "Editar nome do arquivo",
+          "delete": {
+            "title": "Excluir anexo",
+            "message": "Tem certeza de que deseja excluir o anexo {{fileName}}?"
+          }
+        },
+        "dialog": {
+          "title": "Editar informações da linha",
+          "edit-description": "Edite os campos do item ou itens selecionados. Se estiver editando vários itens de uma vez, apenas os valores do primeiro item serão mostrados como referência.",
+          "insert-description": "Insira os campos do item a ser criado.",
+          "change": "Apenas os campos editados serão salvos.",
+          "confirTitle": "Descartar alterações",
+          "confirm": "Tem certeza de que deseja descartar as alterações?",
+          "noPermissions": "Você não tem permissão para editar nenhum campo nesta página ou não há campos editáveis configurados.",
+          "error": "Existem campos que requerem atenção"
+        },
+        "error": {
+          "date": "Não é uma data válida",
+          "date-time": "Não é uma data-hora válida",
+          "number": "Não é um valor numérico",
+          "selector": "Você deve selecionar um elemento",
+          "general": "Há problemas com este campo"
+        },
+        "info": {
+          "date": "dd/mm/aaaa",
+          "date-time": "dd/mm/aaaa hh:mm"
+        },
+        "auto": {
+          "error": "Há problemas com este campo"
+        },
+        "data-change": {
+          "new": "Novo",
+          "comments": "Comentários",
+          "error": "Há problemas com este campo.",
+          "date": "Data",
+          "new-value": "Novo valor",
+          "user": "Usuário",
+          "delete": {
+            "title": "Excluir alterações",
+            "accept": "Excluir",
+            "confirmationMessage": "Tem certeza de que deseja excluir as alterações feitas?"
+          },
+          "reload": "Recarregar"
+        },
+        "file": {
+          "loading": "Carregando arquivo:",
+          "uploaded": "Enviado em",
+          "by": "por",
+          "download": "Baixar arquivo",
+          "load": "Carregar arquivo",
+          "template": "Baixar modelo"
+        },
+        "selector": {
+          "more": "(Carregar mais...)"
+        }
+      },
+      "editor-generic-table": {
+        "op": "OP",
+        "material_op_comp": "Material",
+        "descripcion_material_op_comp": "Descrição",
+        "undefined": "Status",
+        "ctd_pendiente_servir_op": "Qtde. Pendente",
+        "ctd_confirmada_op_comp": "Qtde. Confirmada",
+        "undefined2": "Estoque PEP",
+        "undefined3": "Estoque SV",
+        "undefined4": "Estoque possível",
+        "id_pedido": "Pedido",
+        "edit_producto_urg": "Produto",
+        "desviacion": "Desvio",
+        "criticidad": "Criticidade",
+        "proveedor": "Fornecedor",
+        "fecha_entrega_modificada": "F. Ent. Modif. Pedido",
+        "fecha_confirmada_prov": "F. Confirmada Forn."
+      },
+      "context-menu": {
+        "default": {
+          "copy": "Copiar célula",
+          "clone": "Criar a partir deste elemento",
+          "delete": "Excluir registro",
+          "historic": "Ver histórico",
+          "follow-on": "Adicionar ao acompanhamento",
+          "follow-ok": "Aceitar {{changes}} mudança/s",
+          "follow-off": "Remover do acompanhamento",
+          "import": "Importar",
+          "edit": "Editar item/s",
+          "multiple-edit": "Edição múltipla",
+          "only-edit": "Editar registro",
+          "other-search": "Acessos diretos"
+        },
+        "solped": {
+          "lifecycle": "Ciclo de vida",
+          "comment": "Adicionar observação",
+          "search": "Buscar relacionados",
+          "search-menu": {
+            "materials": "Materiais"
+          }
+        }
+      },
+      "delete": {
+        "dialog": {
+          "title": "Excluir elementos",
+          "confirm": "Confirmar",
+          "confirmationMessage": "Tem certeza de que deseja excluir os elementos selecionados?"
+        }
+      },
+      "multiple-edition": {
+        "dialog": {
+          "title": "Editar informações para as linhas selecionadas",
+          "change": "Somente os campos editados serão salvos.",
+          "confirTitle": "Descartar alterações",
+          "confirm": "Tem certeza de que deseja descartar as alterações?",
+          "no-permissions": "Você não tem permissão para editar nenhum campo nesta página ou não há campos editáveis configurados."
+        }
+      },
+      "view-panel": {
+        "title": "Painel de visualizações",
+        "success-delete": "Visualização excluída com sucesso",
+        "error-delete": "Ocorreu um erro ao excluir a visualização",
+        "error-filter": "Filtro não permitido, filtros complexos (\"|\", \"&\", \"(...)\", \"[...]\") não são permitidos.",
+        "action-view": {
+          "title": "Visualizações",
+          "action": {
+            "create-view": "Criar nova visualização",
+            "view-from-filters": "De filtros ativos",
+            "edit": "Editar visualização",
+            "delete": "Excluir visualização",
+            "clone-view": "Clonar visualização",
+            "clone-and-share-view": "Clonar e compartilhar",
+            "send-view": "Compartilhar visualização",
+            "share-view": "Visualizações compartilhadas"
+          },
+          "tooltip": {
+            "create-view": "Criar nova visualização",
+            "view-from-filters": "Criar nova visualização a partir de filtros ativos na tabela. \n \n *Filtros complexos (\"|\", \"&\", \"(...)\", \"[...]\") não são permitidos.",
+            "edit": "Editar visualização selecionada",
+            "delete": "Excluir visualização selecionada",
+            "clone-view": "A visualização selecionada será clonada dentro do menu de visualizações. Não será enviada para nenhum outro usuário",
+            "clone-and-share-view": "A visualização será clonada e enviada para o usuário selecionado para que ela esteja no espaço de visualizações deles e seja gerenciada como a própria visualização deles",
+            "send-view": "A visualização será compartilhada e enviada para o usuário selecionado para que ela esteja no espaço de visualizações deles sem poder gerenciá-la como a própria visualização",
+            "share-view": "Visualizar visualizações compartilhadas"
+          }
+        },
+        "clone-view": {
+          "title-clone": "Clonando visualização {{viewName}} para mim",
+          "title-send": "Clonar e enviar visualização {{viewName}} para usuário selecionado",
+          "title-clone-and-share": "Compartilhando visualização {{viewName}} para usuário selecionado",
+          "newName": "Indique o nome Vistapor",
+          "clone": "Clonar",
+          "share": "Compartilhar",
+          "cancel": "Cancelar",
+          "filter": "Filtrar usuários",
+          "select": "Selecionar usuário",
+          "notification": {
+            "title": "Edição de visualizações",
+            "close": "Aceitar",
+            "success": {
+              "clone-and-share": "Visualização {{viewName}} clonada e compartilhada com usuário {{userName}} com sucesso",
+              "share": "Visualização {{viewName}} compartilhada com usuário {{userName}} com sucesso",
+              "clone": "Visualização {{viewName}} clonada com sucesso"
+            },
+            "error": {
+              "params": "Por favor, preencha todos os campos obrigatórios",
+              "clone-and-share": "Erro ao clonar visualização: {{viewName}} e compartilhá-la com usuário {{userName}}",
+              "share": "Erro ao compartilhar visualização: {{viewName}} com usuário {{userName}}",
+              "clone": "Erro ao clonar visualização: {{viewName}}",
+              "currentUser": "Você não pode se selecionar, procure e selecione outro usuário"
+            }
+          }
+        },
+        "share-view": {
+          "title": "Editor de visualizações compartilhadas ",
+          "select": "Selecionar visualização",
+          "name": "Nome",
+          "description": "Descrição",
+          "editable": "Editável",
+          "shareable": "Compartilhável",
+          "cloneable": "Clonável"
+        },
+        "dialog-view": {
+          "accept": "Aceitar",
+          "cancel": "Cancelar",
+          "delete": {
+            "title": "Excluir visualização ",
+            "description": "Tem certeza de que deseja excluir a visualização: {{viewName}} ?"
+          }
+        }
+      },
+      "menu": {
+        "home-template": "Início",
+        "other-templates": "Outras abas"
+      }
+    },
+    "home": {
+      "goToTemplate": "Ir para {{name}}",
+      "fav": "Marcar/Desmarcar como favorito",
+      "help": "Ajuda sobre este template",
+      "limit": {
+        "tittle": "Limite de favoritos atingido",
+        "message": "Você só pode ter um máximo de 10 templates favoritos. Desmarque algum para poder adicionar um novo."
+      },
+      "savingError": {
+        "title": "Erro ao salvar",
+        "message": "Ocorreu um erro ao salvar os favoritos. Por favor, tente novamente mais tarde."
+      }
+    },
+    "admin": {
+      "report": {
+        "reports": {
+          "create": "Criar relatório",
+          "filterby": "Filtrar por nome, descrição ou template",
+          "new": {
+            "success-header": "Relatório criado",
+            "success-title": "O relatório '{{name}}' foi criado com sucesso.",
+            "error-header": "Erro ao criar relatório",
+            "error-title": "Ocorreu um erro ao criar o relatório. Se persistir, entre em contato com o administrador."
+          },
+          "edit": {
+            "success-header": "Relatório atualizado",
+            "success-title": "O relatório '{{name}}' foi atualizado com sucesso.",
+            "error-header": "Erro ao atualizar relatório",
+            "error-title": "Ocorreu um erro ao atualizar o relatório. Se persistir, entre em contato com o administrador."
+          },
+          "delete": {
+            "title": "Excluir relatório",
+            "question": "Tem certeza de que deseja excluir o relatório '{{report}}'?",
+            "success-header": "Relatório excluído",
+            "success-title": "O relatório '{{name}}' foi excluído com sucesso.",
+            "error-header": "Erro ao excluir relatório",
+            "error-title": "Ocorreu um erro ao excluir o relatório. Se persistir, entre em contato com o administrador."
+          },
+          "clone": {
+            "title": "Clonar relatório",
+            "newname": "Novo Nome",
+            "errorparams": "Por favor, preencha todos os campos obrigatórios"
+          }
+        },
+        "list": {
+          "columns": {
+            "id": "ID",
+            "name": "Nome",
+            "description": "Descrição",
+            "templateName": "Template"
+          },
+          "edit": " Editar relatório",
+          "delete": "Excluir relatório",
+          "clone": "Clonar relatório"
+        }
+      },
+      "menu": {
+        "users-group": {
+          "title": "Usuários e funções",
+          "description": "Gerenciamento de permissões, acessos e usuários ativos.",
+          "users": "Usuários",
+          "roles": "Funções e permissões",
+          "request": "Solicitações de acesso"
+        },
+        "status-group": {
+          "title": "Sistema",
+          "description": "Estado do sistema e processos.",
+          "status": "Estado",
+          "configuration": "Configuração",
+          "connections": "Conexões",
+          "tasks": "Tarefas ativas",
+          "alerts": "Alertas",
+          "flags": "Flags"
+        },
+        "structure-group": {
+          "title": "Estrutura",
+          "description": "Gerenciamento de templates, colunas e visualizações.",
+          "templates": "Templates",
+          "views": "Visualizações",
+          "selectors": "Lista de parâmetros",
+          "reports": "Relatórios",
+          "templates-search": "Pesquisas de templates",
+          "templates-category": "Categorias de templates"
+        },
+        "helpcenter-group": {
+          "title": "Centro de ajuda",
+          "description": "Gerenciamento de entradas, categorias e etiquetas.",
+          "posts": "Entradas",
+          "posttype": "Tipos de entrada",
+          "categories": "Categorias",
+          "tags": "Etiquetas"
+        }
+      },
+      "template-search": {
+        "add": "Nova pesquisa",
+        "edit": "Editar {{title}}",
+        "filterby": "Filtrar por ID ou título da pesquisa",
+        "add-dialog": {
+          "title": "Título da pesquisa",
+          "template": "Template ao qual pertence",
+          "target-template": "Template de destino",
+          "target-view": "Visualização de destino",
+          "target-view-none": "(Nenhum)",
+          "icon": "Ícone",
+          "grouped": "Mostrar agrupado",
+          "filter": "Filtro",
+          "variables": {
+            "variables": "Variáveis",
+            "variablesInFilters": "Variáveis nos filtros",
+            "userId": "%user.id%: ID do usuário que visualiza o relatório",
+            "userAlias": "%user.alias%: Alias do usuário",
+            "userName": "%user.name%: Nome do usuário",
+            "userEmployee": "%user.employee%: Número do funcionário do usuário",
+            "userPartnerId": "%user.partnerId%: ID do parceiro",
+            "userPartnerName": "%user.partnerName%: Nome do parceiro",
+            "userPartnerEmail": "%user.partnerEmail%: Email inserido pelo usuário parceiro.",
+            "fieldSelected": "%field.[campo]%: Campo da linha selecionada"
+          }
+        },
+        "column": {
+          "id": "ID",
+          "title": "Título da pesquisa",
+          "icon": "Ícone",
+          "grouped": "Segundo plano"
+        },
+        "delete": {
+          "title": "Excluir pesquisa",
+          "success": "Pesquisa excluída com sucesso",
+          "error": "Ocorreu um erro ao excluir a pesquisa",
+          "question": "Tem certeza de que deseja excluir a pesquisa '{{search}}'?"
+        }
+      },
+      "template-category": {
+        "add": "Nova categoria",
+        "edit": "Editar {{title}}",
+        "filterby": "Filtrar por nome da categoria",
+        "add-dialog": {
+          "category": "Categoria",
+          "icon": "Ícone",
+          "active": "Está ativo",
+          "filter": "Filtro",
+          "icon-info": "Digite o texto no formato XML do conteúdo do ícone SVG."
+        },
+        "column": {
+          "id": "ID",
+          "category": "Categoria",
+          "icon": "Ícone",
+          "active": "Está ativo",
+          "categoryLang": "Internacionalização"
+        },
+        "delete": {
+          "title": "Excluir categoria",
+          "success": "Categoria excluída com sucesso",
+          "error": "Ocorreu um erro ao excluir a categoria",
+          "question": "Tem certeza de que deseja excluir a categoria '{{category}}'?"
+        }
+      },
+      "templates": {
+        "column": {
+          "templateId": "ID",
+          "name": "Nome do template",
+          "description": "Descrição",
+          "sqlSource": "Origem",
+          "category": "Categoria",
+          "icon": "Ícone"
+        },
+        "filterby": "Filtrar por nome, descrição, origem ou categoria",
+        "add": "Novo template",
+        "delete-question": "Tem certeza de que deseja excluir o template {{template}}?",
+        "edit": "Editar template",
+        "delete": "Excluir template",
+        "clone": "Clonar template",
+        "editor": {
+          "title": "Editor de templates",
+          "success": {
+            "title": "Template salvo",
+            "message": "Template salvo com sucesso."
+          },
+          "error": {
+            "title": "Erro ao salvar o template",
+            "exists": "A tabela/visão selecionada como origem do template não existe.",
+            "form": "Erro na validação dos campos do formulário. Verifique os dados inseridos.",
+            "name": "Já existe um template com esse nome. Selecione outro nome.",
+            "check": "Erro ao validar as colunas do template. O servidor rejeitou a solicitação, por favor, entre em contato com o administrador: {{error}}",
+            "query": "Erro ao salvar o template. O servidor rejeitou a solicitação, por favor, entre em contato com o administrador: {{error}}",
+            "columns": "Erro ao validar as colunas. As seguintes colunas não existem no banco de dados: {{columns}}"
+          },
+          "search": {
+            "tab": "Pesquisas"
+          },
+          "general": {
+            "tab": "Informações gerais",
+            "name": "Nome do template",
+            "description": "Descrição",
+            "icon": "Ícone (SVG)",
+            "editor": "Tipo de template",
+            "category": "Categoria",
+            "source": "Origem dos dados",
+            "source-info": "[\"esquema\"].[\"tabela\" ou \"visão\"]",
+            "icon-info": "Insira o texto em formato XML do conteúdo do ícone SVG.",
+            "jsonEditor": "JSON do editor",
+            "editor-types": {
+              "none": "Outro (Sem editor)",
+              "default": "Outro (Editor padrão)",
+              "requests": "Solicitação de pedido",
+              "orders": "Pedido",
+              "op": "Ordem de produção"
+            },
+            "error": {
+              "name": "O nome do template é obrigatório.",
+              "source": "A origem do template é obrigatória.",
+              "editor": "O tipo de template é obrigatório.",
+              "icon": "O ícone SVG é obrigatório."
+            }
+          },
+          "columns": {
+            "tab": "Colunas",
+            "add": "Adicionar nova coluna",
+            "loading": "Carregando colunas...",
+            "importing": "Importando colunas...",
+            "import": "Importar da origem de dados",
+            "error": {
+              "empty": "O template não pode estar vazio.",
+              "name": "Existem duas ou mais colunas com o mesmo nome.",
+              "source": "Existem duas ou mais colunas com a mesma origem.",
+              "required": "Os campos nome, fonte e tipo são obrigatórios.",
+              "editable": "Há um campo editável sem origem de edição."
+            },
+            "table": {
+              "name": "Nome",
+              "description": "Descrição",
+              "sqlColumnName": "Origem",
+              "type": "Tipo",
+              "editor": "Editor",
+              "options": "Opções",
+              "required": {
+                "all": "",
+                "enabled": "",
+                "disabled": "",
+                "active": "",
+                "deactivate": ""
+              },
+              "editable": {
+                "all": "",
+                "enabled": "",
+                "disabled": "",
+                "active": "",
+                "deactivate": ""
+              },
+              "multiple_edition": {
+                "all": "",
+                "enabled": "",
+                "disabled": "",
+                "active": "",
+                "deactivate": ""
+              },
+              "multiple_value": {
+                "all": "",
+                "enabled": "",
+                "disabled": "",
+                "active": "",
+                "deactivate": ""
+              },
+              "tableHeader": {
+                "vertical": "Cabeçalho vertical",
+                "horizontal": "Cabeçalho horizontal",
+                "changeToHorizontal": "Mudar para horizontal",
+                "changeToVertical": "Mudar para vertical"
+              },
+              "searchByName": "Procurar por nome ou origem"
+            }
+          },
+          "behaviour": {
+            "title": "Comportamento",
+            "insert": "Permitir criar novos elementos",
+            "insert-function": "Função de inserção",
+            "insert-required": "A função de inserção é obrigatória.",
+            "edit": "Permitir editar elementos",
+            "edit-function": "Função de edição",
+            "edit-required": "A função de edição é obrigatória.",
+            "delete": "Permitir excluir elementos",
+            "delete-function": "Função de exclusão",
+            "delete-required": "A função de exclusão é obrigatória.",
+            "statusColumn": "Tem coluna de status (__status)",
+            "attachmentsColumn": "Coluna de anexos",
+            "editor": "Permitir edição múltipla",
+            "error": {
+              "insert": "Nenhuma função de inserção especificada."
+            },
+            "idComposition": "Componentes do ID"
+          },
+          "editors": {
+            "edit-tab": "Editor inferior",
+            "insert-tab": "Diálogo de inserção"
+          },
+          "massive": {
+            "tab": "Ações em massa",
+            "allowMassiveCreation": "Permitir criação em massa",
+            "allowMassiveEdition": "Permitir edição em massa",
+            "allowCreationNotExistElements": "Permitir criação de elementos inexistentes",
+            "allowCreationNotExistElementsDetails": "Ao ativar esta ação quando a ferramenta deteta uma atualização (atualização: quando as colunas que compõem o id estão preenchidas) e o elemento a atualizar não existe, a ferramenta não irá devolver um erro, mas sim criar o referido elemento.",
+            "allowMassiveExport": "Permitir exportação em massa",
+            "maxMassiveImports": "Número máximo de elementos importáveis",
+            "importSheets": "Planilhas de importação",
+            "importSheet": ""
+          },
+          "notifications": {
+            "tab": "Notificações",
+            "webhookUrl": "PowerAutomate webhook"
+          }
+        },
+        "access": {
+          "table": {
+            "column": {
+              "requestId": "ID",
+              "alias": "Alias",
+              "name": "Nome",
+              "email": "Email",
+              "departament": "Departamento",
+              "requestTime": "Data da solicitação"
+            },
+            "accept": "Aceitar solicitação",
+            "reject": "Rejeitar"
+          },
+          "accept": {
+            "title": "Papel do novo usuário",
+            "role": "Papel do usuário"
+          },
+          "reject": {
+            "title": "Rejeitar solicitação",
+            "cause": "Motivo da rejeição"
+          }
+        }
+      },
+      "selectors": {
+        "table": {
+          "column": {
+            "function": "Função de leitura",
+            "type": "Tipo"
+          },
+          "add": "Novo seletor",
+          "filterby": "Filtrar por tipo ou função de leitura",
+          "actions": {
+            "edit": "Editar parâmetro",
+            "delete": "Excluir parâmetro"
+          },
+          "delete-question": "Tem certeza de que deseja excluir o parâmetro '{{param}}'?"
+        },
+        "editor": {
+          "titleUpdate": "Editor de parâmetro",
+          "titleCreate": "Novo parâmetro"
+        }
+      },
+      "users": {
+        "columns": {
+          "userId": "Id",
+          "name": "Nome",
+          "email": "Email",
+          "lastLogin": "Último acesso",
+          "department": "Departamento",
+          "employeeManager": "Gerente",
+          "role": "Papel",
+          "creationTime": "Data de criação",
+          "resolvedAlias": "Aprovado por"
+        },
+        "filter": {
+          "label": "Filtro",
+          "placeholder": "Nome, Email, Papel ou Departamento"
+        },
+        "role": "Papel",
+        "alias": "Alias",
+        "creationDate": "Data de criação",
+        "dialog": {
+          "edit": "Editar Usuário",
+          "delete": {
+            "title": "Excluir usuário",
+            "confirmationMessage": "Tem certeza de que deseja excluir o usuário '{{name}}'?"
+          },
+          "newRole": "Novo papel: ",
+          "currentRole": "Papel anterior: "
+        },
+        "actions": {
+          "edit": "Editar usuário",
+          "delete": "Excluir usuário",
+          "teams": "Teams"
+        }
+      },
+      "views": {
+        "column": {
+          "viewId": "Id",
+          "templateId": "Id do Template",
+          "name": "Nome",
+          "templateName": "Template"
+        },
+        "delete": {
+          "title": "Excluir vista",
+          "delete-question": "Tem certeza de que deseja excluir a vista '{{view}}'?"
+        },
+        "edit": "Editar vista",
+        "clone": "Clonar vista",
+        "filterby": "Filtrar por nome, id template ou nome do template",
+        "notification": {
+          "delete": {
+            "title": "Vista excluída",
+            "message": "A vista '{{name}}' foi excluída com sucesso."
+          }
+        }
+      },
+      "request": {
+        "table": {
+          "column": {
+            "requestId": "ID",
+            "alias": "Alias",
+            "name": "Nome",
+            "email": "Email",
+            "departament": "Departamento",
+            "employeeManager": "Gerente",
+            "requestTime": "Data de solicitação",
+            "partner": "Parceiro"
+          },
+          "show": "Ver solicitação",
+          "reject": "Rejeitar",
+          "accept": "Aceitar",
+          "cancel": "Cancelar"
+        },
+        "accept": {
+          "title": "Solicitação de acesso",
+          "name": "Nome",
+          "email": "Email",
+          "departament": "Departamento",
+          "employeeManager": "Gerente",
+          "requestTime": "Data de solicitação",
+          "requestText": "Motivo da solicitação",
+          "action": "Ação",
+          "accept": "Aceitar solicitação",
+          "role": "Papel do usuário",
+          "reject": "Rejeitar solicitação",
+          "cause": "Motivo",
+          "partner": "Parceiro",
+          "partnerName": "Funcionário parceiro",
+          "partnerEmail": "Email parceiro"
+        }
+      },
+      "roles": {
+        "access": "Acesso a {{ name }}",
+        "visible": "Visível",
+        "editable": "Editável",
+        "loadingColumn": "Carregando colunas...",
+        "loading": "Carregando...",
+        "admin": "Administrador",
+        "name": "Nome",
+        "description": "Descrição",
+        "name-required": "O nome do papel é obrigatório",
+        "new": "Novo papel",
+        "edit": "Editar papel {{name}}",
+        "clone": "Clonar papel {{name}}",
+        "title-editor": "Editor de papéis",
+        "title-clone": "Clonar papel",
+        "delete": {
+          "question": "Tem certeza de que deseja excluir o papel '{{role}}'?",
+          "body": "Selecione o novo papel para o qual os usuários atribuídos a este papel serão transferidos",
+          "newRole": "Novo papel"
+        },
+        "success": {
+          "editor": "O papel foi editado com sucesso.",
+          "clone-with-capabilities": "O papel {{role}} foi criado e {{count}} permissões foram copiadas com sucesso.",
+          "clone-without-capabilities": "O papel {{role}} foi criado, mas nenhuma permissão dos templates foi copiada. Por favor, revise manualmente."
+        },
+        "error": {
+          "editor": "Ocorreu um erro ao editar o papel {{role}}, {{error}}",
+          "create-rol": "Ocorreu um erro ao criar o papel {{role}}, {{error}}",
+          "clone-capabilities": "O papel {{role}} foi criado, mas ocorreu um erro ao clonar permissões, {{error}}"
+        }
+      },
+      "alerts": {
+        "editor": {
+          "moduleTitle": "Sistema de alertas",
+          "type": "Tipo",
+          "title": "Título",
+          "message": "Mensagem",
+          "save": "Salvar",
+          "cancel": "Cancelar",
+          "clean": "Limpar",
+          "error": "Ocorreu um erro ao salvar suas alterações: {{error}}",
+          "success": "O alerta foi atualizado"
+        }
+      },
+      "configuration": {
+        "panel": {
+          "azure-title": "Azure",
+          "azure-description": "Configuração do Azure e PowerBI",
+          "email-title": "Email",
+          "email-description": "Configuração da conta de email genérica",
+          "tour-title": "Tour virtual",
+          "tour-description": "Configuração do tour virtual para a integração dos usuários"
+        },
+        "tour": {
+          "tours": "Tours configurados:",
+          "no-tours": "Não há tours configurados",
+          "name": "Nome do Tour",
+          "state": "Estado",
+          "state-placeholder": "Selecione o estado",
+          "include": "Roles incluídos",
+          "exclude": "Roles excluídos",
+          "edit": "Editar tour",
+          "required": "Este campo é obrigatório",
+          "save": "Salvar",
+          "loading-server": "Carregando dados...",
+          "error-server": "O servidor retornou um erro durante a solicitação.",
+          "success-server": "O tour foi salvo com sucesso.",
+          "active": "Ativo",
+          "inactive": "Inativo",
+          "add": "Adicionar tour"
+        }
+      },
+      "helpcenter": {
+        "category": {
+          "title": "Gestão de categorias",
+          "name": "Nome",
+          "color": "Cor",
+          "state": "Estado",
+          "save": "Salvar",
+          "cancel": "Cancelar",
+          "required": "Este campo é obrigatório",
+          "invalid-color": "A cor inserida não é válida",
+          "add": "Nova categoria",
+          "label-filter": "Filtro",
+          "column-filter": "Cor, Nome, Criado por, Estado",
+          "tooltip": "Uma categoria é uma classificação para filtrar por temas e encontrar conteúdo relevante.",
+          "edit": "Editar",
+          "clone": "Clonar",
+          "delete": "Eliminar",
+          "go-to-post": "Ir para as entradas",
+          "active": "Ativo",
+          "inactive": "Inativo",
+          "empty": "Não há categorias criadas",
+          "text-create": "Clique no botão para criar uma nova categoria",
+          "text-edit": "ou selecione uma linha da tabela para editar seu conteúdo.",
+          "columns": {
+            "name": "Nome",
+            "color": "Cor",
+            "createdBy": "Criado por",
+            "createdAt": "Data de criação",
+            "isActive": "É ativo",
+            "postCount": "Total de Entradas",
+            "categoryId": "ID"
+          },
+          "dialog": {
+            "clone-title": "Clonar a Categoria",
+            "clone-confirmationMessage": "Tem certeza que deseja clonar a Categoria '{{category}}'?",
+            "clone-newname": "Novo nome",
+            "delete-title": "Eliminar a Categoria",
+            "delete-confirmationMessage": "Tem certeza que deseja eliminar a Categoria '{{category}}'?"
+          },
+          "error": {
+            "get": "Não foi possível obter as categorias, por favor, entre em contato com o administrador.",
+            "save": "Não foi possível salvar a categoria, por favor, entre em contato com o administrador.",
+            "params": "Por favor, preencha todos os campos obrigatórios.",
+            "clone": "Não foi possível clonar a categoria, por favor, entre em contato com o administrador.",
+            "delete": "Não foi possível eliminar a categoria, por favor, entre em contato com o administrador."
+          },
+          "success": {
+            "save": "A categoria foi salva com sucesso.",
+            "clone": "A categoria foi clonada com sucesso.",
+            "delete": "A categoria foi eliminada com sucesso."
+          }
+        },
+        "posttype": {
+          "title": "Gestão de tipos de entrada",
+          "name": "Nome",
+          "path": "Caminho",
+          "path-description": "Caminho para organizar as entradas",
+          "path-error": "O caminho deve ser único e não pode conter números, espaços ou caracteres especiais.",
+          "allowComments": "Permite comentários",
+          "allowRatings": "Permite avaliações",
+          "allowUsercreate": "Permite usuários criar entradas",
+          "allowTicketManagement": "Permite a gestão de tickets",
+          "allowPartnerAccess": "Permite acesso a parceiros",
+          "yes": "Sim",
+          "no": "Não",
+          "state": "Estado",
+          "save": "Salvar",
+          "cancel": "Cancelar",
+          "required": "Este campo é obrigatório",
+          "add": "Novo tipo de entrada",
+          "label-filter": "Filtro",
+          "column-filter": "Caminho, Nome, Criado por, Estado",
+          "tooltip": "Um tipo de entrada permite organizar as publicações em uma página específica.",
+          "edit": "Editar",
+          "clone": "Clonar",
+          "delete": "Eliminar",
+          "go-to-post": "Ir para as entradas",
+          "active": "Ativo",
+          "inactive": "Inativo",
+          "empty": "Não há tipos de entrada criados",
+          "text-create": "Clique no botão para criar um novo tipo de entrada",
+          "text-edit": "ou selecione uma linha da tabela para editar seu conteúdo.",
+          "show-panel": "Mostrar painel",
+          "hide-panel": "Ocultar painel",
+          "pageContent": "Estrutura da página",
+          "ok": "Ok",
+          "status": "Estado",
+          "created": "Criado",
+          "published": "Publicado",
+          "columns": {
+            "name": "Nome",
+            "path": "Caminho",
+            "allowComments": "Permite comentários",
+            "allowRatings": "Permite avaliações",
+            "allowUsercreate": "Permite criar entradas",
+            "allowTicketManagement": "Permite a gestão de tickets",
+            "allowPartnerAccess": "Permite acesso a parceiros",
+            "createdBy": "Criado por",
+            "createdAt": "Data de criação",
+            "updatedBy": "Atualizado por",
+            "updatedAt": "Data de atualização",
+            "isActive": "É ativo",
+            "postCount": "Total de Entradas",
+            "status": "Estado"
+          },
+          "dialog": {
+            "clone-title": "Clonar o tipo de entrada",
+            "clone-confirmationMessage": "Tem certeza que deseja clonar o tipo de entrada '{{posttype}}'?",
+            "clone-newname": "Novo nome",
+            "clone-newpath": "Novo caminho",
+            "delete-title": "Eliminar o tipo de entrada",
+            "delete-confirmationMessage": "Tem certeza que deseja eliminar o tipo de entrada '{{posttype}}'?"
+          },
+          "error": {
+            "get": "Não foi possível obter os tipos de entrada, por favor, entre em contato com o administrador.",
+            "save": "Não foi possível salvar o tipo de entrada, por favor, entre em contato com o administrador.",
+            "params": "Por favor, preencha todos os campos obrigatórios.",
+            "page-content": "Erro no conteúdo do JSON. Por favor, corrija a estrutura da página.",
+            "clone": "Não foi possível clonar o tipo de entrada, por favor, entre em contato com o administrador.",
+            "delete": "Não foi possível eliminar o tipo de entrada, por favor, entre em contato com o administrador.",
+            "path-conflict": "O caminho inserido já está sendo usado por outro tipo de entrada."
+          },
+          "success": {
+            "save": "O tipo de entrada foi salvo com sucesso.",
+            "clone": "O tipo de entrada foi clonado com sucesso.",
+            "delete": "O tipo de entrada foi eliminado com sucesso."
+          }
+        },
+        "tag": {
+          "title": "Gestão de etiquetas",
+          "name": "Nome",
+          "state": "Estado",
+          "save": "Salvar",
+          "cancel": "Cancelar",
+          "required": "Este campo é obrigatório",
+          "add": "Nova etiqueta",
+          "label-filter": "Filtro",
+          "column-filter": "Nome, Criado por, Estado",
+          "tooltip": "As etiquetas são palavras-chave para identificar conteúdo e facilitar a busca",
+          "edit": "Editar",
+          "clone": "Clonar",
+          "delete": "Eliminar",
+          "go-to-post": "Ir para as entradas",
+          "active": "Ativo",
+          "inactive": "Inativo",
+          "empty": "Não há etiquetas criadas",
+          "text-create": "Clique no botão para criar uma nova etiqueta",
+          "text-edit": "ou selecione uma linha da tabela para editar seu conteúdo.",
+          "columns": {
+            "name": "Nome",
+            "createdBy": "Criado por",
+            "createdAt": "Data de criação",
+            "isActive": "É ativo",
+            "postCount": "Total de Entradas"
+          },
+          "dialog": {
+            "clone-title": "Clonar a etiqueta",
+            "clone-confirmationMessage": "Tem certeza que deseja clonar a etiqueta '{{tag}}'?",
+            "clone-newname": "Novo nome",
+            "delete-title": "Eliminar a etiqueta",
+            "delete-confirmationMessage": "Tem certeza que deseja eliminar a etiqueta '{{tag}}'?"
+          },
+          "error": {
+            "get": "Não foi possível obter as etiquetas, por favor, entre em contato com o administrador.",
+            "save": "Não foi possível salvar a etiqueta, por favor, entre em contato com o administrador.",
+            "params": "Por favor, preencha todos os campos obrigatórios.",
+            "clone": "Não foi possível clonar a etiqueta, por favor, entre em contato com o administrador.",
+            "delete": "Não foi possível eliminar a etiqueta, por favor, entre em contato com o administrador."
+          },
+          "success": {
+            "save": "A etiqueta foi salva com sucesso.",
+            "clone": "A etiqueta foi clonada com sucesso.",
+            "delete": "A etiqueta foi eliminada com sucesso."
+          }
+        },
+        "post": {
+          "title": "Gestão de entradas",
+          "empty": "Não há entradas",
+          "add": "Nova entrada",
+          "save": "Salvar",
+          "copy-url": "Copiar URL",
+          "view-detail": "Ver detalhe",
+          "edit": "Editar entrada",
+          "clone": "Clonar entrada",
+          "change-status": "Alterar estado",
+          "state": "Estado",
+          "active": "Ativo",
+          "inactive": "Inativo",
+          "required": "Este campo é obrigatório",
+          "tooltip": "Uma entrada individual ou artigo. Pode conter texto, imagens ou vídeos incorporados.",
+          "label-filter": "Filtro",
+          "column-filter": "Id do ticket, Título, Subtítulo, Tipo, Categoria, Etiquetas",
+          "none": "Nenhum",
+          "open": "Aberto",
+          "progress": "Em progresso",
+          "resolved": "Resolvido",
+          "analysis": "Análise",
+          "feedback": "Aguardando feedback",
+          "yes": "Sim",
+          "no": "Não",
+          "dialog": {
+            "clone-title": "Clonar o Post",
+            "clone-confirmationMessage": "Tem certeza que deseja clonar o Post '{{post}}'?",
+            "clone-newname": "Novo nome",
+            "delete-title": "Eliminar o Post",
+            "delete-confirmationMessage": "Tem certeza que deseja eliminar o Post '{{post}}'?",
+            "change-status": "Alterar estado"
+          },
+          "columns": {
+            "title": "Título",
+            "subtitle": "Subtítulo",
+            "postType": "Tipo",
+            "allowComments": "Permite comentários",
+            "category": "Categoria",
+            "visits": "Visitas",
+            "createdBy": "Criado por",
+            "createdAt": "Data de criação",
+            "updatedAt": "Data de atualização",
+            "isActive": "É ativo",
+            "status": "Estado",
+            "commentCount": "Total de Comentários",
+            "ticketId": "ID do ticket"
+          },
+          "editor": {
+            "postType": "Tipo de entrada",
+            "example-category": "Categoria",
+            "category": "Categoria",
+            "tags": "Etiquetas",
+            "newTag": "Nova etiqueta...",
+            "title": "Título",
+            "subtitle": "Subtítulo",
+            "url": "URL permanente",
+            "url-info": "A URL deve ser legível e amigável para compartilhar com outros usuários.",
+            "url-warning": "Não pode ser alterado posteriormente, é único para cada entrada e permanece para sempre mesmo se o título mudar no futuro."
+          },
+          "error": {
+            "get": "Não foi possível obter as entradas, por favor, entre em contato com o administrador.",
+            "getType": "Não foi possível obter os tipos de entrada, por favor, entre em contato com o administrador.",
+            "getCategory": "Não foi possível obter as categorias, por favor, entre em contato com o administrador.",
+            "getTags": "Não foi possível obter as etiquetas, por favor, entre em contato com o administrador.",
+            "save": "Não foi possível salvar a entrada, por favor, entre em contato com o administrador.",
+            "params": "Por favor, preencha todos os campos obrigatórios ou valide a URL permanente.",
+            "posttype": "O tipo de entrada é obrigatório.",
+            "category": "A categoria é obrigatória.",
+            "html": "O conteúdo HTML é obrigatório.",
+            "clone": "Não foi possível clonar a entrada, por favor, entre em contato com o administrador.",
+            "delete": "Não foi possível eliminar a entrada, por favor, entre em contato com o administrador.",
+            "copy-url": "Não foi possível copiar a URL, por favor, entre em contato com o administrador.",
+            "url-conflict": "A URL inserida já está sendo usada por outra entrada.",
+            "url-error": "A URL deve ser única e não pode conter números, espaços ou caracteres especiais."
+          },
+          "success": {
+            "save": "A entrada foi salva com sucesso.",
+            "clone": "A entrada foi clonada com sucesso.",
+            "delete": "A entrada foi eliminada com sucesso.",
+            "copy-url": "A URL foi copiada com sucesso."
+          },
+          "detail": {
+            "uuid": "UUID",
+            "title": "Título",
+            "subtitle": "Subtítulo",
+            "ticketId": "ID do ticket",
+            "url": "URL",
+            "typeId": "Id tipo de entrada",
+            "postType": {
+              "name": " - Nome",
+              "path": " - Caminho",
+              "allowComments": " - Permite comentários",
+              "allowRatings": " - Permite avaliações",
+              "allowUsercreate": " - Permite criar entradas"
+            },
+            "contentId": "Id conteúdo",
+            "visits": "Total de Visitas",
+            "createdName": "Nome criador",
+            "createdEmail": "Email criador",
+            "createdUuid": "Uuid criador",
+            "createdAt": "Data criação",
+            "updatedAt": "Data atualização",
+            "updatedBy": "Usuário atualizador",
+            "isActive": "É ativo",
+            "status": "Estado",
+            "categories": "Categorias",
+            "tags": "Etiquetas",
+            "commentCount": "Total de Comentários"
+          }
+        },
+        "preview-page": {
+          "error-json-structure": "A estrutura do JSON não é válida, por favor, valide",
+          "component": "Componente:"
+        }
+      }
+    },
+    "view-manager": {
+      "title": "Editor de vistas",
+      "new": "Nova vista",
+      "edit": "Editar {{name}}",
+      "drag-drop": {
+        "locked": "Esta coluna está sendo utilizada em um filtro.",
+        "allCols": "Todas as colunas",
+        "selectedCols": "Colunas selecionadas",
+        "mainCol": "Coluna principal",
+        "sort": "Ordenar por",
+        "dock": "Ancorar",
+        "dock-value": {
+          "none": "Não ancorar",
+          "right": "Direita",
+          "left": "Esquerda"
+        },
+        "order": "Ordem",
+        "asc": "Ascendente",
+        "desc": "Descendente",
+        "unsort": "(Sem ordem)",
+        "addSort": "Adicionar",
+        "maxSortColumns": "Máximo de colunas de ordenação",
+        "orderRequired": "É necessário fazer um pedido"
+      },
+      "tabs": {
+        "general": {
+          "title": "Informação geral",
+          "name": "Nome da vista",
+          "template": "Template ao qual pertence"
+        },
+        "filters": {
+          "title": "Filtros",
+          "column": "Coluna",
+          "condition": "Condição",
+          "value": "Valor",
+          "applied": "Filtro aplicado",
+          "addOr": "Adicionar OR",
+          "addAnd": "Adicionar AND",
+          "or": "OR",
+          "and": "AND"
+        }
+      },
+      "success": {
+        "title": "Vista criada",
+        "message": "A vista {{name}} foi salva com sucesso."
+      },
+      "error": {
+        "title": "Não foi possível criar a vista",
+        "name": "O nome da vista é obrigatório.",
+        "template": "O template da vista é obrigatório.",
+        "columns": "Deve selecionar pelo menos uma coluna.",
+        "query": "Ocorreu um erro ao criar a vista. O servidor rejeitou a solicitação, por favor, entre em contato com o administrador: {{error}}",
+        "addOr": "Não é possível adicionar uma linha OR com uma linha vazia ou sem AND preenchido.",
+        "addAnd": "Não é possível adicionar uma linha AND com uma linha vazia."
+      }
+    },
+    "access": {
+      "title": "Bem-vindo",
+      "hello": "OLÁ!!",
+      "description": "Antes de poder trabalhar no CONVERGE, precisamos saber o que você precisa.",
+      "description-select1": "Primeiro, precisamos saber",
+      "description-select2": "de onde você vem",
+      "description-select3": "Selecione que tipo de usuário você é para começar:",
+      "description-form": "Por favor, preencha o seguinte formulário. Você receberá um email quando seu pedido de acesso for resolvido.",
+      "termsAndAgreementsOfUse": "Li e aceito os termos e condições de utilização.",
+      "safetyInformation": "Informações de segurança",
+      "informationForSuppliers": "Informações para fornecedores",
+      "readDocument": "Deve ler os documentos primeiro",
+      "type": {
+        "indra": "Indra Sistemas",
+        "indra-description": "Sou um empregado ou subcontratado na Indra.",
+        "partner": "Parceiro",
+        "partner-description": "Sou um fornecedor ou usuário de outra empresa que colabora com a Indra.",
+        "partner-description-info": "@eservicios.indra.es devem escolher a opção 'Indra Sistemas'"
+      },
+      "form": {
+        "email-employeeManager": "Email do responsável",
+        "email-employeeManagerHint": "Nome e sobrenome do responsável",
+        "departament": "Departamento",
+        "boss": "Responsável",
+        "reason": "Motivo",
+        "send": "Enviar pedido de acesso",
+        "reason-required": "O campo Motivo é obrigatório.",
+        "department": "Departamento",
+        "department-required": "Por favor, preencha o departamento",
+        "employeeNumber": "Número de empregado",
+        "employeeNumber-required": "Insira um número de empregado válido.",
+        "email-employeeManager-required": "Insira um email válido.",
+        "name": "Nome e sobrenome",
+        "name-required": "O campo de nome e sobrenome é obrigatório",
+        "email": "Email",
+        "email-info": "Email de contato do usuário parceiro (não da conta Indra).",
+        "email-required": "Insira um email válido",
+        "partner-name": "Nome do parceiro",
+        "partner-name-required": "Nome do parceiro é obrigatório",
+        "partner-id": "ID do parceiro",
+        "partner-id-required": "ID do parceiro é obrigatório"
+      },
+      "waiting": {
+        "text": "Os administradores do CONVERGE estão revisando sua solicitação. Quando for resolvida, você receberá um email."
+      },
+      "loading": "Carregando informações do usuário."
+    },
+    "roles": {
+      "main": {
+        "list": "Lista",
+        "new": "Novo",
+        "edit": "Editar"
+      },
+      "list": {
+        "id": "Id",
+        "name": "Nome",
+        "description": "Descrição",
+        "actions": {
+          "edit": "Editar papel",
+          "delete": "Eliminar papel",
+          "clone": "Clonar papel"
+        }
+      },
+      "create": {
+        "name": "Nome",
+        "description": "Descrição",
+        "permissionsList": "Lista de permissões",
+        "columnsPermissions": "Permissões de colunas",
+        "visible": "Visível",
+        "editable": "Editável",
+        "create": "Criar",
+        "clean": "Limpar"
+      },
+      "edit": {
+        "edit": "Editar",
+        "cancel": "Cancelar"
+      }
+    },
+    "notifications": {
+      "dataNotifications": {
+        "goto": "Ver dados",
+        "readed": "Marcar como lido",
+        "moreInfo": "informações"
+      },
+      "EXCEL_EXPORT": {
+        "messages": {
+          "init": "Iniciando processo",
+          "processing": "Gerando arquivo",
+          "paintingColumns": "Pintando colunas",
+          "errorLoadingTemplate": "Erro ao carregar o template",
+          "errorLoadingColumns": "Erro ao carregar as colunas",
+          "errorPaintingColumns": "Erro ao pintar as colunas",
+          "errorLoadingSelectors": "Erro ao carregar os selectores",
+          "errorPaintingSelectors": "Erro ao pintar os selectores",
+          "errorLoadingSelectorCount": "Erro ao carregar o número de selectores",
+          "paintingSelectors": "Pintando selectores.",
+          "paintingData": "Pintando dados",
+          "errorPaintingData": "Erro ao pintar os dados",
+          "errorLoadingDataCount": "Erro ao carregar o número de elementos",
+          "errorLoadingData": "Erro ao carregar os dados",
+          "writingFile": "Escrevendo arquivo",
+          "finish": "Arquivo gerado"
+        },
+        "status": {
+          "PENDING": {
+            "title": "Iniciando exportação de Excel",
+            "message": "Processo de exportação de CONVERGE iniciado."
+          },
+          "RUNNING": {
+            "title": "Exportando para Excel",
+            "message": "Processo de exportação de CONVERGE em execução. Você receberá uma notificação pelo CONVERGE e por e-mail quando estiver concluído."
+          },
+          "COMPLETED": {
+            "title": "Exportação para Excel concluída",
+            "message": "A exportação para Excel foi concluída. Você pode baixar o arquivo a partir do seguinte link: {{url}}",
+            "download": "Baixar arquivo"
+          },
+          "ERROR": {
+            "title": "Erro ao exportar para Excel",
+            "message": "Ocorreu um erro ao exportar para Excel: {{error}}"
+          }
+        }
+      },
+      "DATA_EDIT": {
+        "status": {
+          "PENDING": {
+            "title": "Modificando dados",
+            "message": "Iniciando processo."
+          },
+          "RUNNING": {
+            "title": "Modificando dados",
+            "message": "Processando solicitação."
+          },
+          "COMPLETED": {
+            "title": "Modificando dados",
+            "message": "Salvo com sucesso.",
+            "recovery": "Recuperar"
+          },
+          "ERROR": {
+            "title": "Modificando dados",
+            "message": "Ocorreu um erro ao salvar:",
+            "recovery": "Recuperar"
+          }
+        },
+        "messages": {
+          "success": "Processo concluído com sucesso",
+          "success_no_payload": "Processo concluído, recomenda-se recarregar a página",
+          "error": "{{trace}}"
+        }
+      },
+      "MULTIPLE_DATA_EDIT": {
+        "status": {
+          "PENDING": {
+            "title": "Modificando dados",
+            "message": "Iniciando processo."
+          },
+          "RUNNING": {
+            "title": "Modificando dados",
+            "message": "Processando solicitação."
+          },
+          "COMPLETED": {
+            "title": "Modificando dados",
+            "message": "Salvo com sucesso.",
+            "recovery": "Recuperar"
+          },
+          "ERROR": {
+            "title": "Modificando dados",
+            "message": "Ocorreu um erro ao salvar:",
+            "recovery": "Recuperar"
+          }
+        },
+        "messages": {
+          "success": "Processo concluído com sucesso",
+          "success_no_payload": "Processo concluído, recomenda-se recarregar a página",
+          "error": "{{trace}}"
+        }
+      },
+      "EXCEL_TEMPLATE": {
+        "messages": {
+          "init": "Iniciando processo.",
+          "processing": "Gerando arquivo.",
+          "paintingColumns": "Pintando colunas.",
+          "errorLoadingTemplate": "Erro ao carregar o template.",
+          "errorLoadingColumns": "Erro ao carregar as colunas.",
+          "errorPaintingColumns": "Erro ao pintar as colunas.",
+          "errorLoadingSelectors": "Erro ao carregar os selectores.",
+          "errorPaintingSelectors": "Erro ao pintar os selectores.",
+          "notIdColumnInView": "Não foi encontrada uma coluna de ID na vista selecionada.",
+          "errorLoadingSelectorCount": "Erro ao carregar o número de selectores.",
+          "errorEmptyIdComposition": "Não foi encontrada a configuração do ID no template, contate o administrador.",
+          "paintingSelectors": "Pintando selectores.",
+          "writingFile": "Escrevendo arquivo.",
+          "errorDataTabs": "Erro ao carregar dados das guias.",
+          "finish": "Arquivo gerado: {{fileName}}"
+        },
+        "status": {
+          "PENDING": {
+            "title": "Geração de template",
+            "message": "Processo de geração de template para CONVERGE iniciado."
+          },
+          "RUNNING": {
+            "title": "Geração de template",
+            "message": "Processo de geração de template para CONVERGE em execução."
+          },
+          "COMPLETED": {
+            "title": "Geração de template",
+            "message": "A geração do template foi concluída. Arquivo gerado: {{fileName}}",
+            "download": "Baixar arquivo"
+          },
+          "ERROR": {
+            "title": "Geração de template",
+            "message": "Ocorreu um erro ao exportar para Excel: {{error}}"
+          }
+        }
+      },
+      "EXCEL_VALIDATION": {
+        "messages": {
+          "init": "Iniciando processo",
+          "loadData": "Carregando dados",
+          "validateFile": "Validando arquivo recebido.",
+          "exceededRowLimit": "O número de linhas excede o máximo permitido.",
+          "validateData": "Validando dados do arquivo.",
+          "validateRow": "Validando linha, linha {{row}} de {{total}}",
+          "errorColumn": "Na planilha {{sheet}}, a coluna {{column}} não existe.",
+          "errorType": "Na planilha {{sheet}}, a linha {{index}}, a coluna {{column}} não é do tipo correto. Esperava-se {{expected}} e recebeu-se {{received}}.",
+          "errorSelector": "Na planilha {{sheet}}, a linha {{index}}, o selector {{column}} não é do tipo correto. Procure um valor válido para o selector {{type}}. Se o modelo de importação não foi descarregado hoje, recomendamos que o descarregue novamente, uma vez que os valores do seletor podem ter sido alterados.",
+          "errorSelectorGroup": "Na folha de cálculo {{sheet}}, linha {{index}}, o selector {{column}} não é do tipo correcto. O campo depende de outro selector: {{observer}}. Certifique-se de que o valor selecionado está correto.",
+          "errorTypeFormat": "Na planilha {{sheet}}, a linha {{index}}, a coluna {{column}} não é do tipo correto. O formato requerido é {{format}}.",
+          "errorLoadingTemplate": "Erro ao carregar o template",
+          "errorLoadingColumns": "Erro ao carregar as colunas",
+          "errorValueRequired": "Na planilha {{sheet}}, a linha {{index}}, está faltando a coluna {{column}} que é obrigatória.",
+          "errorEmptyIdComposition": "Não foi encontrada a configuração do ID no template, contate o administrador.",
+          "notFoundFile": "Arquivo não encontrado.",
+          "emptyFile": "O arquivo está vazio.",
+          "success": "Validação concluída.",
+          "error": "Erro durante a validação.",
+          "errorPaintingTabs": "Erro ao pintar as guias.",
+          "errorDataTabs": "Erro ao carregar dados das guias.",
+          "massiveEditionNotAllowed": "Este template não permite edição em massa.",
+          "massiveCreationNotAllowed": "Este template não permite criação em massa.",
+          "duplicateIdentifier": "Identificador duplicado na linha {{index}}."
+        },
+        "status": {
+          "PENDING": {
+            "title": "Processo de validação",
+            "message": "Processo de validação para importação de dados iniciado."
+          },
+          "RUNNING": {
+            "title": "Processo de validação",
+            "message": "Processo de validação para importação de dados em execução."
+          },
+          "COMPLETED": {
+            "title": "Processo de validação",
+            "message": "Processo de validação concluído."
+          },
+          "ERROR": {
+            "title": "Processo de validação",
+            "message": "Erro durante o processo de validação."
+          }
+        }
+      },
+      "EXCEL_IMPORT": {
+        "messages": {
+          "init": "Iniciando processo",
+          "preparation": "Preparando dados",
+          "saving": "Salvando dados",
+          "savedRows": "Salvando linha, {{row}} de {{total}}.",
+          "finish": "Importação concluída. Ações realizadas: elementos inseridos {{insert}} e elementos atualizados {{update}}.",
+          "errorColumn": "A coluna {{column}} não existe.",
+          "massiveEditionNotAllowed": "Este template não permite edição em massa.",
+          "massiveCreationNotAllowed": "Este template não permite criação em massa.",
+          "errorEmptyIdComposition": "Não foi encontrada a configuração do ID no template, contate o administrador.",
+          "errorDB": "Na linha id {{index}} ocorreu um erro durante o salvamento: {{trace}} ",
+          "genericError": "Ocorreu um erro ao importar o Excel."
+        },
+        "status": {
+          "PENDING": {
+            "title": "Processo de importação",
+            "message": "Iniciando processo de importação."
+          },
+          "RUNNING": {
+            "title": "Processo de importação",
+            "message": "Importação em andamento."
+          },
+          "COMPLETED": {
+            "title": "Processo de importação",
+            "message": "Processo de importação concluído"
+          },
+          "ERROR": {
+            "title": "Processo de importação",
+            "message": "Ocorreu um erro ao importar o Excel: {{error}}"
+          }
+        }
+      },
+      "NEWS_NEW": {
+        "messages": {
+          "title": "",
+          "description": ""
+        },
+        "status": {
+          "COMPLETED": {
+            "link": ""
+          }
+        }
+      },
+      "close": "Fechar",
+      "edit": {
+        "title": "Salvando dados",
+        "pending": "Suas alterações estão na fila. Serão processadas em breve.",
+        "running": "As alterações estão sendo processadas. {{rows}} linha(s) serão modificadas.",
+        "success": "Suas alterações foram salvas com sucesso. Foram feitas alterações em {{rows}} linha(s).",
+        "error": "Ocorreu um erro ao salvar suas alterações: {{error}}"
+      },
+      "export": {
+        "title": "Exportando para Excel",
+        "progress": "O processo de exportação do arquivo está na fila. Você receberá uma notificação via CONVERGE e e-mail quando estiver concluído.",
+        "error": "Ocorreu um erro ao exportar o arquivo. A descrição do erro é a seguinte: {{error}}.",
+        "success": "A tarefa de exportação foi concluída. Você pode baixar o arquivo pelo link recebido por e-mail ou pelo seguinte link."
+      },
+      "roles": {
+        "headers": {
+          "created": "Função criada",
+          "updated": "Função atualizada",
+          "deleted": "Função excluída"
+        },
+        "bodies": {
+          "created": "A função {{roleName}} foi criada.",
+          "updated": "A função {{roleName}} foi atualizada.",
+          "deleted": "A função {{roleName}} foi excluída."
+        }
+      },
+      "templates": {
+        "headers": {
+          "createdUpdated": "Modelo criado/atualizado",
+          "deleted": "Modelo excluído"
+        },
+        "bodies": {
+          "createdUpdated": "O modelo {{templateName}} foi criado/atualizado.",
+          "deleted": "O modelo {{templateName}} foi excluído."
+        },
+        "errorRepeated": "Já existe um modelo com esse nome",
+        "errorRequired": "Campos faltando para completar",
+        "errorClose": "Fechar",
+        "errorHeader": "Erro ao criar/atualizar o modelo"
+      },
+      "users": {
+        "headers": {
+          "createdUpdated": "Usuário atualizado",
+          "deleted": "Usuário excluído",
+          "request": "Solicitação de novo usuário"
+        },
+        "bodies": {
+          "createdUpdated": "O usuário {{userName}} foi atualizado.",
+          "deleted": "O usuário {{userName}} foi excluído.",
+          "acceptRequest": "A solicitação do novo usuário foi aceita",
+          "rejectRequest": "A solicitação do novo usuário foi rejeitada"
+        },
+        "error": {
+          "deleted": "Ocorreu um erro ao excluir o usuário: {{name}}",
+          "acceptRequest": "Ocorreu um erro ao aceitar a solicitação",
+          "rejectRequest": "Ocorreu um erro ao rejeitar a solicitação",
+          "userAlreadyExist": "O usuário já existe"
+        }
+      },
+      "common": {
+        "change": {
+          "title": "Salvar alterações",
+          "success": "Suas alterações foram salvas com sucesso.",
+          "error": "Ocorreu um erro ao salvar as alterações, se o erro persistir entre em contato com o administrador",
+          "no-save-help": "As alterações de ajuda não podem ser salvas sem conteúdo."
+        }
+      }
+    },
+    "editors": {
+      "default": {
+        "defaultEditor": "Editor padrão"
+      },
+      "solped": {
+        "urgences": {
+          "status": {
+            "0": "Sem urgência",
+            "1": "Nova",
+            "2": "Em andamento",
+            "3": "Em qualidade",
+            "4": "Concluída"
+          },
+          "claimant": "Reclamante",
+          "claimant-desc": "Usuário que reivindica a urgência.",
+          "start": "Data de início da urgência",
+          "start-desc": "Data em que a linha entrou na urgência.",
+          "criticality": "Criticidade",
+          "need": "Data de necessidade",
+          "lot": "Unidades urgentes",
+          "cause": "Causa raiz",
+          "cause-description": "Descrição da causa raiz"
+        }
+      }
+    },
+    "view-help": {
+      "components": {
+        "help": {
+          "title": "Ajuda do CONVERGE",
+          "close": "Fechar",
+          "edit": "Editar",
+          "save": "Salvar",
+          "back": "Voltar",
+          "cancel": "Cancelar",
+          "createTab": "Adicionar guia",
+          "deleteTab": "Excluir guia",
+          "nameTab": "Nome da guia:",
+          "nameTabRequired": "O nome é obrigatório",
+          "newTab": "Nova guia",
+          "newBodyTab": "Esta guia é temporária, você deve editá-la para salvá-la no aplicativo",
+          "delete": {
+            "title": "Excluir ajuda",
+            "question": "Tem certeza de que deseja excluir a guia '{{tabName}}'?",
+            "success-header": "Guia excluída com sucesso",
+            "success-title": "A guia '{{tabName}}' foi excluída com sucesso.",
+            "error-header": "Erro ao excluir guia",
+            "error-title": "Ocorreu um erro ao excluir a guia, se persistir, entre em contato com o administrador."
+          },
+          "saveTab": {
+            "header": "Salvar guia",
+            "noParamName": "A guia não pode ser salva sem um nome."
+          }
+        },
+        "empty-state": {
+          "describe": "Estamos trabalhando para fornecer a você a melhor ajuda! Ela estará disponível em breve."
+        }
+      }
+    },
+    "onboarding": {
+      "dialog": {
+        "title": "Tour Virtual",
+        "message": "Não temos um tour virtual ativo no momento. Convido você a visitar o Centro de Ajuda para entrar em contato conosco e resolver qualquer dúvida que tenha sobre a plataforma.",
+        "not-available": "Tour virtual não está disponível nesta página. Convido você a visitar o Centro de Ajuda para entrar em contato conosco e resolver qualquer dúvida que tenha sobre a plataforma."
+      },
+      "alert-tour": {
+        "title": "Tour de Boas-vindas",
+        "message": "Convidamos você a fazer o tour para conhecer as funcionalidades da plataforma."
+      },
+      "button": {
+        "start": "Começar",
+        "finish": "Finalizar",
+        "dontshowagain": "Não mostrar novamente"
+      },
+      "tourgeneral": {
+        "step1": {
+          "title": "Tour Virtual",
+          "hello": "Olá",
+          "welcome": "bem-vindo(a) ao aplicativo",
+          "converge": "Converge",
+          "evolution": "evolução de",
+          "gemys": "GEMYS",
+          "message": "desenvolvido para o acompanhamento de entregas e a gestão centralizada de dados."
+        },
+        "step2": {
+          "title": "Boas-vindas",
+          "message1": "Vou guiá-lo(a) pelas principais funcionalidades do aplicativo.",
+          "message2": "Obrigado(a) pelo seu tempo e aproveite a experiência."
+        },
+        "step3": {
+          "title": "Progresso",
+          "message1": "Você pode fechar o tour a qualquer momento. O progresso será salvo automaticamente, permitindo retomá-lo quando quiser.",
+          "message2": "Tour virtual",
+          "message3": "Principais áreas do Converge",
+          "action1": "Boas-vindas",
+          "action2": "Painel de avisos e alertas",
+          "action3": "Barra superior",
+          "action4": "Menu de abas",
+          "action5": "Barra de busca",
+          "action6": "Barra inferior",
+          "action7": "Menu superior",
+          "action8": "Tabela de Conteúdo"
+        },
+        "step4": {
+          "title": "Painel de avisos e alertas",
+          "message": "Localizado na parte superior da tela, aparece automaticamente ao entrar no aplicativo quando há avisos ativos."
+        },
+        "step5": {
+          "title": "Barra superior",
+          "message": "Proporciona acesso rápido a funções importantes do aplicativo."
+        },
+        "step6": {
+          "title": "Menu de abas",
+          "message": "Mostra as seções para consulta de dados oferecidas pelo converge."
+        },
+        "step7": {
+          "title": "Barra de busca de abas",
+          "message": "Permite localizar facilmente a aba que você precisa para a sua gestão."
+        },
+        "step8": {
+          "title": "Barra inferior",
+          "message": "Oferece informações sobre a tabela exibida, como o número de páginas que a compõem ou a data da sua última atualização."
+        },
+        "step9": {
+          "title": "Menu superior",
+          "message": "Dependendo da tabela exibida, diferentes elementos aparecerão, variando conforme a aba selecionada."
+        },
+        "step10": {
+          "title": "Tabela de Conteúdo",
+          "message": "Área principal do aplicativo onde podemos visualizar os dados contidos no Converge."
+        },
+        "step11": {
+          "title": "Concluído",
+          "message1": "Obrigado pelo seu tempo.",
+          "message2": "Você pode refazer o tour a qualquer momento clicando no ícone",
+          "message3": "na Barra Superior."
+        },
+        "step12": {
+          "title": "Botão do Converge",
+          "message": "Atualiza a página atual."
+        },
+        "step13": {
+          "title": "Nome do Template",
+          "message": "Serve para identificar o template atual."
+        },
+        "step14": {
+          "title": "Idioma",
+          "message": "Permite mudar o idioma de navegação para Espanhol, Inglês ou Português."
+        },
+        "step15": {
+          "title": "Fale Conosco",
+          "message": "Acesso direto ao nosso Centro de Ajuda, onde você pode entrar em contato conosco e se manter informado sobre as novidades do aplicativo."
+        },
+        "step16": {
+          "title": "Tour Virtual",
+          "message": "Acessar este tour."
+        },
+        "step17": {
+          "title": "Ícone de notificações",
+          "message": "Mostra as notificações pendentes."
+        },
+        "step18": {
+          "title": "Ícone de perfil",
+          "message": "Acesso às opções do usuário."
+        }
+      }
+    },
+    "helpcenter": {
+      "readmore": "Leia mais",
+      "showing": "Mostrando",
+      "of": "de",
+      "page": "Página",
+      "last-page": "Última",
+      "first-page": "Primeira",
+      "empty-post": "Não há entradas disponíveis",
+      "empty-comment": "Não há comentários disponíveis, convidamos você a ser o primeiro a comentar.",
+      "new-post": "Nova entrada",
+      "delete": "Excluir",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "edit": "Editar",
+      "edit-post": "Editar entrada",
+      "changeto-open": "Alterar para: Aberto",
+      "changeto-progress": "Alterar para: Em progresso",
+      "changeto-resolved": "Alterar para: Resolvido",
+      "changeto-analysis": "Alterar para: Análise",
+      "changeto-feedback": "Alterar para: Aguardando feedback",
+      "delete-post": "Excluir entrada",
+      "new-comment": "Novo comentário",
+      "edit-comment": "Editar comentário",
+      "delete-comment": "Excluir comentário",
+      "reactivate-comment": "Reativar comentário",
+      "page-notfound": "A página não está disponível no momento, se persistir, por favor, entre em contato com o administrador.",
+      "aplyto": "Aplicar a",
+      "aplyto-idtemplate": "ID do Template",
+      "category": "Categoria",
+      "title": "Título",
+      "required": "Este campo é obrigatório",
+      "title-usereditor": "Editor de entradas",
+      "title-savepost": "Salvar entrada",
+      "title-deletepost": "Excluir entrada",
+      "title-deletecomment": "Excluir comentário",
+      "title-activecomment": "Ativar comentário",
+      "title-updatecomment": "Atualizar comentário",
+      "title-createcomment": "Criar novo comentário",
+      "createdby": "Criado por",
+      "none": "Nenhum",
+      "open": "Aberto",
+      "progress": "Em progresso",
+      "resolved": "Resolvido",
+      "analysis": "Análise",
+      "feedback": "Aguardando feedback",
+      "comments": "Comentários",
+      "comment-deleted": "Comentário excluído",
+      "confirmationDeleteComment": "Tem certeza de que deseja excluir o comentário?",
+      "confirmationReactivateComment": "Tem certeza de que deseja reativar o comentário?",
+      "confirmationMessagePost": "Tem certeza de que deseja excluir a entrada?",
+      "go-back": "Voltar",
+      "success": {
+        "savepost": "Entrada salva com sucesso.",
+        "deletepost": "Entrada excluída com sucesso.",
+        "savecomment": "Comentário salvo com sucesso.",
+        "deletecomment": "Comentário excluído com sucesso.",
+        "activecomment": "Comentário ativado com sucesso."
+      },
+      "error": {
+        "required": "Por favor, preencha todos os campos obrigatórios.",
+        "title-required": "O título é obrigatório.",
+        "title-maxlength": "O título não pode ter mais de 100 caracteres.",
+        "category": "A categoria é obrigatória.",
+        "aplyto": "O template ao qual a entrada se aplica é obrigatório.",
+        "htmlrequired": "O conteúdo da entrada é obrigatório.",
+        "savepost": "Não foi possível salvar a entrada, por favor, entre em contato com o administrador.",
+        "deletepost": "Não foi possível excluir a entrada, por favor, entre em contato com o administrador.",
+        "savecomment": "Não foi possível salvar o comentário, por favor, entre em contato com o administrador.",
+        "deletecomment": "Não foi possível excluir o comentário, por favor, entre em contato com o administrador.",
+        "activecomment": "Não foi possível ativar o comentário, por favor, entre em contato com o administrador.",
+        "payloadToolargeImg": "A imagem é muito grande, por favor, tente enviar outra imagem.",
+        "payloadToolarge": "O tamanho da entrada é muito grande, por favor, reduza a quantidade de texto.",
+        "saveAttachment": "Não foi possível salvar o anexo, por favor, entre em contato com o administrador."
+      },
+      "filters": "Filtros",
+      "status": "Status",
+      "categories": "Categorias",
+      "tags": "Tags",
+      "filters-info": "Permite filtrar as entradas que atendem aos critérios selecionados",
+      "show-my-post": "Como está o meu?",
+      "show-all-post": "Mostrar tudo",
+      "show-today-post": "E o de hoje?",
+      "show-upcoming-post": "Próximas entregas",
+      "without-state": "Sem estado",
+      "empty-post-filters": "Não há entradas disponíveis com os filtros selecionados",
+      "deleted-post": "Cadeia de mensagens excluídas",
+      "warning-add-image": "Imagens anexadas ou capturas de tela podem afetar a criação da entrada, por favor, evite carregar imagens muito grandes.",
+      "updated": "Atualizado",
+      "title-discard-changes": "Descartar alterações",
+      "confirm-discard-changes": "Tem certeza de que deseja descartar as alterações?",
+      "subscription": {
+        "title": "Inscrição de notificações",
+        "subscribe": "Inscrever-se",
+        "unsubscribe": "Cancelar inscrição",
+        "success-subscribe": "Inscrição realizada com sucesso",
+        "success-unsubscribe": "Cancelamento de inscrição realizado com sucesso",
+        "error-subscribe": "Não foi possível realizar a inscrição, por favor, entre em contato com o administrador.",
+        "error-unsubscribe": "Não foi possível realizar o cancelamento da inscrição, por favor, entre em contato com o administrador.",
+        "owner": "Inscrito automaticamente",
+        "already-subscribed": "O usuário já está inscrito",
+        "subscribers": "Inscritos",
+        "unsubscribeTitle": "Confirmar cancelamento de inscrição",
+        "unsubscribeSelectedUser": "Tem certeza de que deseja cancelar a inscrição do usuário selecionado?",
+        "noSubscribers": "Nenhum usuário inscrito"
+      },
+      "ticket": {
+        "copy-ticket": "Copiar número do ticket",
+        "copy-ticket-success": "Número do ticket copiado com sucesso.",
+        "copy-ticket-error": "Não foi possível copiar o número do ticket, por favor, entre em contato com o administrador.",
+        "ticketAssignedTo": "Atribuído a:",
+        "selectUserToAssign": "Selecionar usuário para atribuir",
+        "noUserAssigned": "Nenhum usuário atribuído.",
+        "assign": "Atribuir",
+        "assignment-title": "Atribuir ticket",
+        "assignment-success": "Ticket atribuído com sucesso.",
+        "assignment-error": "Não foi possível atribuir o ticket, por favor, entre em contato com o administrador.",
+        "estimatedEndDate": "Data estimada de conclusão",
+        "estimatedEndDate-tooltip": "Data estimada de término do ticket",
+        "estimatedEndDate-title": "Nova data estimada de conclusão do ticket",
+        "estimatedEndDate-edit": "Editar data estimada de conclusão",
+        "estimatedEndDate-delete": "Excluir data estimada de conclusão",
+        "estimatedEndDate-set": "Definir data estimada de conclusão",
+        "estimatedEndDate-invalid": "A data estimada de conclusão não pode ser anterior à data de criação.",
+        "estimatedEndDate-error": "Não foi possível salvar a data estimada de conclusão, por favor, entre em contato com o administrador.",
+        "estimatedEndDate-success": "Data estimada de conclusão salva com sucesso.",
+        "estimatedEndDate-deleteTitle": "Excluir data estimada de conclusão",
+        "estimatedEndDate-confirmationMessage": "Tem certeza de que deseja excluir a data estimada de conclusão?",
+        "estimatedEndDate-deleteSuccess": "Data estimada de conclusão excluída com sucesso.",
+        "estimatedEndDate-deleteError": "Não foi possível excluir a data de término estimada, por favor, entre em contato com o administrador.",
+        "assignTo-deleteTitle": "Remover usuário atribuído ao ticket",
+        "assignTo-confirmationMessage": "Tem certeza de que deseja remover o usuário atribuído?",
+        "assignTo-deleteSuccess": "Usuário removido com sucesso.",
+        "assignTo-deleteError": "Não foi possível remover o usuário atribuído, por favor, entre em contato com o administrador.",
+        "isUserAlreadyAssigned": "O usuário já está atribuído ao ticket."
+      },
+      "search": {
+        "label": "Buscar entrada",
+        "placeholder": "Título da entrada"
+      },
+      "attachments": {
+        "title": "Anexar Arquivos",
+        "dropzone": "Arraste e solte arquivos aqui ou clique para selecioná-los.",
+        "selected_files": "Arquivos Selecionados:",
+        "uploaded_files": "Arquivos Anexados:",
+        "upload": "Enviar",
+        "download": "Baixar",
+        "delete": "Excluir",
+        "error-load": "Erro ao carregar anexos.",
+        "success-upload": "Arquivos enviados com sucesso.",
+        "error-upload": "Erro ao enviar arquivos.",
+        "error-download": "Erro ao baixar arquivo.",
+        "success-delete": "Arquivo excluído com sucesso.",
+        "error-delete": "Erro ao excluir arquivo.",
+        "error-file-size": "O arquivo excede o tamanho máximo permitido de {{ maxSizeMB }}MB",
+        "max-size": "Tamanho máximo permitido: {{size}}MB"
+      }
+    },
+    "shared": {
+      "filter": {
+        "filter-autocomplete": {
+          "placeholder": "Selecione uma opção"
+        }
+      },
+      "search": {
+        "user-search": {
+          "label": "Buscar usuário por nome e email",
+          "placeholder": "Digite para buscar um usuário",
+          "loading": "Carregando usuários...",
+          "no-results": "Nenhum usuário encontrado",
+          "errors": {
+            "required": "Você deve buscar e selecionar um usuário.",
+            "invalidSearch": "Busque e selecione um usuário da lista."
+          }
+        }
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Manutenção em andamento",
+    "message": "Estamos realizando algumas melhorias no sistema para servi-lo melhor. Voltaremos em breve. Agradecemos sua paciência.",
+    "go-home": "Voltar para a página inicial"
+  },
+  "not-found": {
+    "title": "Página não encontrada",
+    "message": "A página que você está procurando não existe ou foi movida.",
+    "go-back": "Voltar",
+    "go-home": "Voltar para a página inicial"
+  }
+}

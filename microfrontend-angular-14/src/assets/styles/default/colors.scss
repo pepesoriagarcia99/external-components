@@ -1,0 +1,125 @@
+@import "~@angular/material/theming";
+
+$primary: #03657c;
+$primary-light-1: #649ec9;
+$primary-light-2: #b1cee4;
+$primary-light-3: #eef4f6;
+$primary-dark-1: #004254;
+$primary-dark-2: #004153;
+$primary-dark-3: #3c3c3c;
+
+$secondary: #ffd829;
+$tertiary: #5a67ae;
+$solar-yellow: #fbbb21;
+$custom-yellow: #fff700;
+
+$backdrop: #363636c2;
+$danger-translucid: rgba(230, 47, 45, 0.2);
+
+$info: #649ec9;
+$danger: #e62f2d;
+$warning: #f1a92c;
+$success: #64882b;
+$danger-light: #f2dede;
+$warning-light: #e5cca2;
+$success-light: #b0c58e;
+
+$gray: #8e8e8e;
+$gray-light-1: #919292;
+$gray-light-2: #b9b2ad;
+$gray-light-3: #c4c4c4;
+$gray-light-4: #e5e5e5;
+$gray-light-5: rgba(229, 229, 229, 0.52);
+$gray-light-6: #ffffff;
+$gray-dark-1: #838181;
+$gray-dark-2: #6d6e6e;
+$gray-dark-3: #464646;
+$gray-dark-4: #363636;
+$gray-dark-5: #181e1e;
+$gray-dark-6: #000000;
+
+$white: $gray-light-6;
+$black: $gray-dark-6;
+
+$submenu-1: #3c3c3c;
+$submenu-2: #03657c;
+$submenu-3: #004254;
+$submenu-4: #002833;
+$submenu-5: #004254;
+$submenu-6: #09262e;
+$submenu-7: #151c2e;
+$submenu-8: #384152;
+$submenu-9: #324b7b;
+$submenu-10: #06307f;
+
+$mat-primary: (
+  main: $primary,
+  lighter: $primary-light-1,
+  darker: $primary-dark-1,
+  200: $primary,
+  // For slide t
+  contrast:
+    (
+      main: $white,
+      lighter: $black,
+      darker: $white,
+    ),
+);
+$theme-primary: mat-palette($mat-primary, main, lighter, darker);
+
+$mat-accent: (
+  main: #ffd829,
+  lighter: #ffe675,
+  darker: #a0881c,
+  200: #ffd829,
+  // For slide toggle,
+  contrast:
+    (
+      main: $black,
+      lighter: $black,
+      darker: $white,
+    ),
+);
+$theme-accent: mat-palette($mat-accent, main, lighter, darker);
+
+$mat-warn: (
+  main: #ff0000,
+  lighter: #ffb3b3,
+  darker: #ff0000,
+  200: #ff0000,
+  // For slide toggle,
+  contrast:
+    (
+      main: $white,
+      lighter: $black,
+      darker: $white,
+    ),
+);
+$theme-warn: mat-palette($mat-warn, main, lighter, darker);
+
+$theme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
+
+@include angular-material-theme($theme);
+
+
+.scrollbar-style {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: $white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba($color: $primary-light-1, $alpha: 0.6);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba($color: $primary-light-1, $alpha: 0.5);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  &::-webkit-scrollbar-thumb:active {
+    background: rgba($color: $primary-light-1, $alpha: 0.6);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+}
