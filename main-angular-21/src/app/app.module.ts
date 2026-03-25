@@ -5,10 +5,11 @@ import { provideHttpClient } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ImplWcSvelteComponent } from './components/impl-wc-svelte/impl-wc-svelte';
+import { ImplWcAngularComponent } from './components/impl-wc-angular/impl-wc-angular';
 
 
 @NgModule({
-  declarations: [AppComponent, ImplWcSvelteComponent],
+  declarations: [AppComponent, ImplWcSvelteComponent, ImplWcAngularComponent],
   imports: [
     BrowserModule,
   ],

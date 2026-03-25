@@ -1,22 +1,18 @@
 <div>
-  <h1>Angular 21</h1>
-
   <select (change)="loadWebComponent($event)">
     @for (wc of webComponents; track wc.label) {
-      <option [value]="wc.label">{{ wc.label }}</option>
+    <option [value]="wc.label">{{ wc.label }}</option>
     }
   </select>
 
   <!-- <button (click)="loadWebComponent()">Iniciar</button> -->
 
-  @if (currentComponent?.label && currentComponent?.src) {
-    @if (!loading) {
-      <div>
-        <div #wc_container></div>
-        <button (click)="setData()">Agregar dato</button>
-      </div>
-    } @else {
-      <p>Cargando...</p>
-    }
-  }
+  @if (currentComponent?.label && currentComponent?.src) { @if (!loading) {
+  <div>
+    <div #wc_container></div>
+    <button (click)="setData()">Agregar dato</button>
+  </div>
+  } @else {
+  <p>Cargando...</p>
+  } }
 </div>

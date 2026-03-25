@@ -39,13 +39,13 @@ app.use("/cdn", (req, res, next) => {
 app.use(
   "/cdn",
   express.static(STATIC_DIR, {
-    etag: true,
-    lastModified: true,
-    maxAge: "1d",
-    immutable: true,
-    setHeaders: (res) => {
-      res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
-    },
+    // etag: true,
+    // lastModified: true,
+    // maxAge: "1d",
+    // immutable: true,
+    // setHeaders: (res) => {
+    //   res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    // },
   }),
 );
 

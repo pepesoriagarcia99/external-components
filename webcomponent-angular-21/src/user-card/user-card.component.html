@@ -1,0 +1,9 @@
+<div class="user-card">
+  <h2>{{ firstName }} {{ lastName }}</h2>
+  <ul>
+    @for (p of phoneNumbers; track $index) {
+      <option [value]="p">{{ p }}</option>
+    }
+    <!-- <li *ngFor="let phone of phoneNumbers">{{ phone }}</li> -->
+  </ul>
+</div>
