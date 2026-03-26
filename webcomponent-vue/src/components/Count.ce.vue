@@ -6,15 +6,24 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-defineProps<{}>()
+defineProps<{}>();
 
-const count = ref(0)
+const count = ref(0);
 
 const increment = () => {
-  count.value++
-}
+  count.value++;
+};
+
+const setData = (newData: any) => {
+  console.log("Setting data vue:", newData);
+  increment();
+};
+
+defineExpose({
+  setData,
+});
 </script>
 
 <style>
