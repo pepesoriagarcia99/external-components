@@ -119,6 +119,11 @@ export class ImplWcSvelteComponent {
     const wcElement = this.wcInstances.get(this.currentComponent.label);
     if (!wcElement) return;
 
+    // idea:
+    // customElements.whenDefined('my-element').then(() => {
+    //   (wcElement as any).setData({})
+    // });
+
     (wcElement as any).setData({
       id: 4,
       name: 'Bob Johnson test',
