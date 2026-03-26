@@ -25,6 +25,10 @@ export class ImplWcSvelteComponent {
     {
       label: 'wc-table',
       src: `${environment.cdnUrl}/table-wc`
+    },
+    {
+      label: 'wc-counter',
+      src: `${environment.cdnUrl}/wc-counter`
     }
   ]
 
